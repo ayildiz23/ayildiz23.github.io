@@ -606,6 +606,40 @@ progress {
   height: auto;
 }
 
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30% 3rem 30%;
+}
+
+.profile-picture-container,
+.UW-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UW-container {
+  flex: 2;
+}
+
+.profile-picture-container {
+  padding-right: 10%;
+}
+
+.UW-picture {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-picture {
+  max-width: 100%;
+  border-radius: 50%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -3848,6 +3882,7 @@ textarea.form-control-lg {
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
+  text-decoration: underline;
 }
 
 .navbar-nav {
@@ -11069,7 +11104,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/main-image.webp");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/main-background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11112,11 +11147,11 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 3rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .projects-section {

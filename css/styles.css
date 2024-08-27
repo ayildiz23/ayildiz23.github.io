@@ -610,7 +610,7 @@ progress {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30% 3rem 30%;
+  padding: 0 30% 5rem 30%;
 }
 
 .profile-picture-container,
@@ -632,6 +632,7 @@ progress {
 .UW-picture {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .profile-picture {
@@ -11147,11 +11148,11 @@ body {
 }
 
 .about-section {
-  padding-top: 3rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .projects-section {
